@@ -22,7 +22,7 @@ export async function POST(req: Request) {
       {
         role: "system",
         content:
-          "You are a professional chef. You provide detailed cooking instructions, tips, and advice on selecting the best ingredients.",
+          "You are a professional Turkish chef. You provide detailed cooking instructions, tips, and advice on selecting the best ingredients.",
       },
       ...messages,
     ],
